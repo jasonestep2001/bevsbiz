@@ -5,58 +5,79 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bev's Therapy</title>
   <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="hero">
-        <nav class="navbar">
-          <div class="logo">Bev's Therapy</div>
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      
-        <div class="hero-content">
-          <h1>Find Peace, Find You</h1>
-          <p>Your journey to healing begins here</p>
-        </div>
-      </header>
-      
-
-  <section id="about" class="section light-bg">
-    <div class="container">
-      <img src="images/bev-portrait.jpg" alt="Photo of Bev" class="about-img" />
-      <div class="text">
-        <h2>Meet Bev</h2>
-        <p>With compassion, care, and clinical experience, Bev guides clients through healing and growth.</p>
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">Bev's Therapy</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Find Peace, Find You</h1>
+        <p>Your journey to healing begins here</p>
       </div>
     </div>
-  </section>
+  </header>
 
-  <section id="services" class="section">
-    <div class="container">
-      <h2>Services</h2>
-      <ul class="services-list">
-        <li>Individual Therapy</li>
-        <li>Couples Counseling</li>
-        <li>Trauma-Informed Care</li>
-        <li>Mindfulness & Stress Management</li>
-      </ul>
-    </div>
-  </section>
+  <main>
+    <section id="about" class="section light-bg">
+      <div class="container">
+        <img src="images/bev-portrait.jpg" alt="Photo of Bev" class="about-img responsive-img" />
+        <div class="text">
+          <h2>Meet Bev</h2>
+          <p>Bev is a licensed therapist offering compassionate, personalized therapy in a serene and welcoming environment. She specializes in helping individuals overcome anxiety, trauma, and life transitions.</p>
+        </div>
+      </div>
+    </section>
 
-  <section id="contact" class="section light-bg">
-    <div class="container">
-      <h2>Get in Touch</h2>
-      <form id="contactForm">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message" rows="5" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
-  </section>
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Services</h2>
+        <ul class="services-list">
+          <li>Individual Therapy</li>
+          <li>Couples Counseling</li>
+          <li>Trauma-Informed Care</li>
+          <li>Mindfulness Coaching</li>
+          <li>Virtual & In-Person Sessions</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section light-bg">
+      <div class="container">
+        <h2>What Clients Say</h2>
+        <div class="testimonials">
+          <blockquote>
+            "Bev helped me regain my confidence and sense of peace. Her compassion is unmatched."
+            <cite>- Client A</cite>
+          </blockquote>
+          <blockquote>
+            "I always feel safe and heard in Bev's sessions. It's been life-changing."
+            <cite>- Client B</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <form id="contactForm">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
 
   <footer>
     <p>&copy; 2025 Bev's Therapy. All rights reserved.</p>
