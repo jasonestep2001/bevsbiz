@@ -22,18 +22,20 @@
   }
   
   .hero {
-    background: url('images/hero-image.jpg') no-repeat center center;
-    background-size: cover;
+    background-image: url('images/hero-image.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    background-color: var(--sage);
     height: 100vh;
-    min-height: 500px;
-    color: white;
+    max-height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    text-align: center;
     position: relative;
+    text-align: center;
   }
   
   .hero::before {
